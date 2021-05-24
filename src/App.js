@@ -1,4 +1,5 @@
 import React from "react";
+import { createBrowserHistory as createHistory } from "history";
 import { Admin, Resource } from "react-admin";
 import jsonServerProvider from "ra-data-json-server";
 import LoginPage from "./loginPage";
@@ -44,6 +45,8 @@ const customTheme = createMuiTheme({
   },
 });
 
+const history = createHistory();
+
 function App() {
   return (
     <Admin
@@ -54,6 +57,7 @@ function App() {
       dataProvider={jsonServerProvider(
         "https://www.lunch-picker-api.com/react-admin"
       )}
+      history={history}
     >
       <Resource
         name="user-connection-details"
