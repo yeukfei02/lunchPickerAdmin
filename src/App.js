@@ -1,6 +1,7 @@
 import React from "react";
 import { Admin, Resource } from "react-admin";
 import jsonServerProvider from "ra-data-json-server";
+import LoginPage from "./loginPage";
 import Dashboard from "./dashboard";
 import authProvider from "./authProvider";
 
@@ -47,6 +48,7 @@ function App() {
   return (
     <Admin
       theme={customTheme}
+      loginPage={LoginPage}
       dashboard={Dashboard}
       authProvider={authProvider}
       dataProvider={jsonServerProvider(
