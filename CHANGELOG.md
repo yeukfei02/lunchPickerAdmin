@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/yeukfei02/lunchPickerAdmin/compare/v0.1.1...v0.1.2) (2021-05-25)
+
+
+### Features
+
+* 🎸 add custom header in dataProvider ([698f9f2](https://github.com/yeukfei02/lunchPickerAdmin/commit/698f9f234cc7af5b56c405b8faa904257d10c8c1))
+
+
+### Bug Fixes
+
+* 🐛 remove hash in url ([2df2e20](https://github.com/yeukfei02/lunchPickerAdmin/commit/2df2e200c877b8df419617923e0b06b5e3dbb20c))
+* 🐛 update react-admin lib ([34cc512](https://github.com/yeukfei02/lunchPickerAdmin/commit/34cc51254814481e09a8a3512cb3a57d16e7da73))
+
 ### 0.1.1 (2021-05-24)
 
 
