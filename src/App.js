@@ -1,6 +1,6 @@
 import React from "react";
 import { createBrowserHistory as createHistory } from "history";
-import { Admin, Resource } from "react-admin";
+import { Admin, Resource, fetchUtils } from "react-admin";
 import jsonServerProvider from "ra-data-json-server";
 import LoginPage from "./loginPage";
 import Dashboard from "./dashboard";
@@ -47,6 +47,21 @@ const customTheme = createMuiTheme({
 
 const history = createHistory();
 
+const httpClient = (url, options = {}) => {
+  if (!options.headers) {
+    options.headers = new Headers({ Accept: "application/json" });
+  }
+  options.user = {
+    authenticated: true,
+    token: "lunchPickerAdmin",
+  };
+  return fetchUtils.fetchJson(url, options);
+};
+const dataProvider = jsonServerProvider(
+  "https://www.lunch-picker-api.com/react-admin",
+  httpClient
+);
+
 function App() {
   return (
     <Admin
@@ -54,9 +69,7 @@ function App() {
       loginPage={LoginPage}
       dashboard={Dashboard}
       authProvider={authProvider}
-      dataProvider={jsonServerProvider(
-        "https://www.lunch-picker-api.com/react-admin"
-      )}
+      dataProvider={dataProvider}
       history={history}
     >
       <Resource
