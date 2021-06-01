@@ -2,6 +2,7 @@ import React from "react";
 import {
   Filter,
   TextInput,
+  NumberInput,
   List,
   Datagrid,
   TextField,
@@ -19,7 +20,9 @@ import {
 
 const RestaurantDetailsReviewFilter = (props) => (
   <Filter {...props}>
-    <TextInput label="Search" source="q" alwaysOn />
+    <TextInput label="Id" source="id" alwaysOn />
+    <TextInput label="Text" source="text" allowEmpty />
+    <NumberInput label="Rating" source="rating" allowEmpty />
   </Filter>
 );
 

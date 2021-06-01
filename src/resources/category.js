@@ -16,7 +16,9 @@ import {
 
 const CategoryFilter = (props) => (
   <Filter {...props}>
-    <TextInput label="Search" source="q" alwaysOn />
+    <TextInput label="Id" source="id" alwaysOn />
+    <TextInput label="Title" source="title" allowEmpty />
+    <TextInput label="Alias" source="alias" allowEmpty />
   </Filter>
 );
 
