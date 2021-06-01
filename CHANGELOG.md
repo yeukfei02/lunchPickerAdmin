@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/yeukfei02/lunchPickerAdmin/compare/v0.1.2...v0.1.3) (2021-06-01)
+
+
+### Features
+
+* 🎸 add filter ([9f5490f](https://github.com/yeukfei02/lunchPickerAdmin/commit/9f5490ff06c28514b9e2af79e0ac1fa3788e0f44))
+
 ### [0.1.2](https://github.com/yeukfei02/lunchPickerAdmin/compare/v0.1.1...v0.1.2) (2021-05-25)
 
 
