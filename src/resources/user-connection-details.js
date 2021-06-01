@@ -16,7 +16,8 @@ import {
 
 const UserConnectionDetailsFilter = (props) => (
   <Filter {...props}>
-    <TextInput label="Search" source="q" alwaysOn />
+    <TextInput label="Id" source="id" alwaysOn />
+    <TextInput label="Ip" source="ip" allowEmpty />
   </Filter>
 );
 
