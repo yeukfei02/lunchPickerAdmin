@@ -33,7 +33,7 @@ export const RestaurantDetailsReviewList = (props) => {
         <TextField source="id" />
         <TextField source="text" />
         <TextField source="rating" />
-        <TextField source="created_by" />
+        <TextField source="created_at" />
         {/* <EditButton /> */}
       </Datagrid>
     </List>
@@ -52,8 +52,8 @@ export const RestaurantDetailsReviewShow = (props) => (
       <UrlField source="user.profile_url" />
       <ImageField source="user.image_url" />
       <TextField source="user.name" />
-      <TextField source="created_by" />
-      <TextField source="updated_by" />
+      <TextField source="created_at" />
+      <TextField source="updated_at" />
     </SimpleShowLayout>
   </Show>
 );

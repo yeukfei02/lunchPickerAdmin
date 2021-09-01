@@ -38,7 +38,7 @@ export const RestaurantList = (props) => {
         <TextField source="location.city" />
         <TextField source="location.country" />
         <TextField source="phone" />
-        <TextField source="created_by" />
+        <TextField source="created_at" />
         {/* <EditButton /> */}
       </Datagrid>
     </List>
@@ -71,8 +71,8 @@ export const RestaurantShow = (props) => (
       <TextField source="distance" />
       <TextField source="categories" />
       <TextField source="transactions" />
-      <TextField source="created_by" />
-      <TextField source="updated_by" />
+      <TextField source="created_at" />
+      <TextField source="updated_at" />
     </SimpleShowLayout>
   </Show>
 );
