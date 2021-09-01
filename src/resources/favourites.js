@@ -38,7 +38,7 @@ export const FavouritesList = (props) => {
         <TextField source="item.location.city" />
         <TextField source="item.location.country" />
         <TextField source="item.phone" />
-        <TextField source="created_by" />
+        <TextField source="created_at" />
         {/* <EditButton /> */}
       </Datagrid>
     </List>
@@ -74,8 +74,8 @@ export const FavouritesShow = (props) => (
       <TextField source="item.distance" />
       <TextField source="item.categories" />
       <TextField source="item.transactions" />
-      <TextField source="created_by" />
-      <TextField source="updated_by" />
+      <TextField source="created_at" />
+      <TextField source="updated_at" />
     </SimpleShowLayout>
   </Show>
 );

@@ -33,7 +33,7 @@ export const UserConnectionDetailsList = (props) => {
         <TextField source="client.name" />
         <TextField source="client.version" />
         <TextField source="device.type" />
-        <TextField source="created_by" />
+        <TextField source="created_at" />
         {/* <EditButton /> */}
       </Datagrid>
     </List>
@@ -51,8 +51,8 @@ export const UserConnectionDetailsShow = (props) => (
       <TextField source="client.name" />
       <TextField source="client.version" />
       <TextField source="device.type" />
-      <TextField source="created_by" />
-      <TextField source="updated_by" />
+      <TextField source="created_at" />
+      <TextField source="updated_at" />
     </SimpleShowLayout>
   </Show>
 );

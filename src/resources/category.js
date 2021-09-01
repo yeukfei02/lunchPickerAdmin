@@ -32,7 +32,7 @@ export const CategoryList = (props) => {
         <TextField source="parent_aliases.length" />
         <TextField source="country_whitelist.length" />
         <TextField source="country_blacklist.length" />
-        <TextField source="created_by" />
+        <TextField source="created_at" />
         {/* <EditButton /> */}
       </Datagrid>
     </List>
@@ -48,8 +48,8 @@ export const CategoryShow = (props) => (
       <TextField source="parent_aliases" />
       <TextField source="country_whitelist" />
       <TextField source="country_blacklist" />
-      <TextField source="created_by" />
-      <TextField source="updated_by" />
+      <TextField source="created_at" />
+      <TextField source="updated_at" />
     </SimpleShowLayout>
   </Show>
 );
