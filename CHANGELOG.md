@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/yeukfei02/lunchPickerAdmin/compare/v0.1.5...v0.1.6) (2021-11-16)
+
+
+### Features
+
+* 🎸 add sentry ([9cc25e7](https://github.com/yeukfei02/lunchPickerAdmin/commit/9cc25e7d54a7e1a66c2eb2f19ae87693c38f02f8))
+
 ### [0.1.5](https://github.com/yeukfei02/lunchPickerAdmin/compare/v0.1.4...v0.1.5) (2021-11-12)
 
 ### [0.1.4](https://github.com/yeukfei02/lunchPickerAdmin/compare/v0.1.3...v0.1.4) (2021-09-01)

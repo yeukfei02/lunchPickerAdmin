@@ -1,6 +1,6 @@
 {
   "name": "lunch-picker-admin",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": true,
   "dependencies": {
     "@sentry/react": "^6.15.0",
